@@ -1,0 +1,982 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Console Corner | Gaming Arena</title>
+
+    <meta
+        name="description"
+        content="Console Corner — Premium gaming arena for PlayStation, PC Gaming, Racing Sim and VR Gaming."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         LOADER
+         ===================================================== -->
+
+    <div class="loader" id="loader">
+
+        <div class="loader-content">
+
+            <div class="loader-logo">
+                CONSOLE<span>CORNER</span>
+            </div>
+
+            <div class="loader-line"></div>
+
+            <p>INITIALIZING ARENA...</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         BACKGROUND EFFECTS
+         ===================================================== -->
+
+    <div class="background-grid"></div>
+
+    <div class="particles" id="particles"></div>
+
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <div class="scanlines"></div>
+
+
+    <!-- =====================================================
+         NAVBAR
+         ===================================================== -->
+
+    <header class="navbar" id="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                CONSOLE<span>CORNER</span>
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+            >
+                ☰
+            </button>
+
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#home" class="active">HOME</a>
+
+                <a href="#about">ABOUT</a>
+
+                <a href="#experiences">EXPERIENCES</a>
+
+                <a href="#games">GAMES</a>
+
+                <a href="#pricing">PRICING</a>
+
+                <a href="#gallery">GALLERY</a>
+
+                <a href="#contact">CONTACT</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+         ===================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO
+             ================================================= -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content reveal">
+
+                <p class="hero-small">
+                    WELCOME TO THE
+                </p>
+
+                <h1 class="glitch" data-text="CONSOLE CORNER">
+                    CONSOLE CORNER
+                </h1>
+
+                <h2>
+                    YOUR <span>ULTIMATE</span> GAMING DESTINATION
+                </h2>
+
+                <p class="hero-description">
+                    Experience next-level gaming with premium
+                    consoles, powerful PCs, immersive VR and
+                    professional racing simulators.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#experiences" class="btn btn-primary">
+                        EXPLORE EXPERIENCES
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        BOOK YOUR SESSION
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="hero-orb"></div>
+
+                <div class="hero-ring ring-one"></div>
+
+                <div class="hero-ring ring-two"></div>
+
+                <div class="hero-ring ring-three"></div>
+
+                <div class="hero-hud">
+
+                    <span>ONLINE</span>
+
+                    <span>◉</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+
+                <span>SCROLL TO EXPLORE</span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             ABOUT / INTRO
+             ================================================= -->
+
+        <section class="intro section" id="about">
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <p class="section-label">
+                        THE ARENA
+                    </p>
+
+                    <h2>
+                        WHERE <span>GAMING</span>
+                        BECOMES AN EXPERIENCE
+                    </h2>
+
+                    <p>
+                        Console Corner is built for gamers who
+                        want more than just another gaming setup.
+                        Come in, pick your experience and lose
+                        yourself in the game.
+                    </p>
+
+                </div>
+
+
+                <div class="stats-grid">
+
+                    <div class="stat-card reveal">
+
+                        <strong
+                            class="counter"
+                            data-target="4"
+                        >
+                            0
+                        </strong>
+
+                        <span>
+                            GAMING EXPERIENCES
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-card reveal">
+
+                        <strong
+                            class="counter"
+                            data-target="50"
+                        >
+                            0
+                        </strong>
+
+                        <span>
+                            GAMES TO PLAY
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-card reveal">
+
+                        <strong
+                            class="counter"
+                            data-target="24"
+                        >
+                            0
+                        </strong>
+
+                        <span>
+                            HOURS OF FUN
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-card reveal">
+
+                        <strong
+                            class="counter"
+                            data-target="100"
+                        >
+                            0
+                        </strong>
+
+                        <span>
+                            GAMER ENERGY
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             EXPERIENCES
+             ================================================= -->
+
+        <section
+            class="experiences section"
+            id="experiences"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <p class="section-label">
+                        CHOOSE YOUR EXPERIENCE
+                    </p>
+
+                    <h2>
+                        PICK YOUR <span>PLAYSTYLE</span>
+                    </h2>
+
+                    <p>
+                        Click any experience to select it and
+                        jump straight to the booking section.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-grid">
+
+
+                    <!-- PLAYSTATION -->
+
+                    <a
+                        href="#contact"
+                        class="experience-card reveal"
+                        data-experience="PlayStation"
+                    >
+
+                        <div class="card-number">
+                            01
+                        </div>
+
+                        <div class="experience-icon">
+                            ◉
+                        </div>
+
+                        <h3>
+                            PLAYSTATION
+                        </h3>
+
+                        <p>
+                            Grab the controller and jump into
+                            your favourite PlayStation games.
+                        </p>
+
+                        <div class="card-arrow">
+                            →
+                        </div>
+
+                    </a>
+
+
+                    <!-- PC -->
+
+                    <a
+                        href="#contact"
+                        class="experience-card reveal"
+                        data-experience="PC Gaming"
+                    >
+
+                        <div class="card-number">
+                            02
+                        </div>
+
+                        <div class="experience-icon">
+                            ◈
+                        </div>
+
+                        <h3>
+                            PC GAMING
+                        </h3>
+
+                        <p>
+                            High-performance gaming PCs built
+                            for competitive and immersive play.
+                        </p>
+
+                        <div class="card-arrow">
+                            →
+                        </div>
+
+                    </a>
+
+
+                    <!-- RACING -->
+
+                    <a
+                        href="#contact"
+                        class="experience-card racing-card reveal"
+                        data-experience="Racing Sim"
+                    >
+
+                        <div class="card-number">
+                            03
+                        </div>
+
+                        <div class="experience-icon">
+                            ◇
+                        </div>
+
+                        <h3>
+                            RACING SIM
+                        </h3>
+
+                        <p>
+                            Feel every turn with an immersive
+                            racing simulator setup.
+                        </p>
+
+                        <div class="speed-lines"></div>
+
+                        <div class="card-arrow">
+                            →
+                        </div>
+
+                    </a>
+
+
+                    <!-- VR -->
+
+                    <a
+                        href="#contact"
+                        class="experience-card vr-card reveal"
+                        data-experience="VR Gaming"
+                    >
+
+                        <div class="card-number">
+                            04
+                        </div>
+
+                        <div class="experience-icon">
+                            ◎
+                        </div>
+
+                        <h3>
+                            VR GAMING
+                        </h3>
+
+                        <p>
+                            Step into another world with
+                            immersive virtual reality gaming.
+                        </p>
+
+                        <div class="vr-rings"></div>
+
+                        <div class="card-arrow">
+                            →
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             GAMES
+             ================================================= -->
+
+        <section class="games section" id="games">
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <p class="section-label">
+                        GAME LIBRARY
+                    </p>
+
+                    <h2>
+                        PLAY THE <span>BIGGEST TITLES</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="games-grid">
+
+                    <div class="game-card reveal">
+
+                        <div class="game-number">
+                            01
+                        </div>
+
+                        <h3>
+                            GTA V
+                        </h3>
+
+                        <p>
+                            OPEN WORLD
+                        </p>
+
+                    </div>
+
+
+                    <div class="game-card reveal">
+
+                        <div class="game-number">
+                            02
+                        </div>
+
+                        <h3>
+                            FC 26
+                        </h3>
+
+                        <p>
+                            SPORTS
+                        </p>
+
+                    </div>
+
+
+                    <div class="game-card reveal">
+
+                        <div class="game-number">
+                            03
+                        </div>
+
+                        <h3>
+                            F1
+                        </h3>
+
+                        <p>
+                            RACING
+                        </p>
+
+                    </div>
+
+
+                    <div class="game-card reveal">
+
+                        <div class="game-number">
+                            04
+                        </div>
+
+                        <h3>
+                            MORE
+                        </h3>
+
+                        <p>
+                            AND MORE...
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PRICING
+             ================================================= -->
+
+        <section class="pricing section" id="pricing">
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <p class="section-label">
+                        SIMPLE PRICING
+                    </p>
+
+                    <h2>
+                        GAME MORE. <span>PAY LESS.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="pricing-grid">
+
+                    <div class="price-card reveal">
+
+                        <p class="price-label">
+                            QUICK SESSION
+                        </p>
+
+                        <h3>
+                            1 HOUR
+                        </h3>
+
+                        <div class="price">
+                            ₹---
+                        </div>
+
+                        <p>
+                            Perfect for a quick gaming session.
+                        </p>
+
+                        <a href="#contact" class="btn btn-primary">
+                            BOOK NOW
+                        </a>
+
+                    </div>
+
+
+                    <div class="price-card featured reveal">
+
+                        <div class="popular">
+                            POPULAR
+                        </div>
+
+                        <p class="price-label">
+                            GAMING SESSION
+                        </p>
+
+                        <h3>
+                            2 HOURS
+                        </h3>
+
+                        <div class="price">
+                            ₹---
+                        </div>
+
+                        <p>
+                            More time. More games. More fun.
+                        </p>
+
+                        <a href="#contact" class="btn btn-primary">
+                            BOOK NOW
+                        </a>
+
+                    </div>
+
+
+                    <div class="price-card reveal">
+
+                        <p class="price-label">
+                            GAMER PACK
+                        </p>
+
+                        <h3>
+                            5 HOURS
+                        </h3>
+
+                        <div class="price">
+                            ₹---
+                        </div>
+
+                        <p>
+                            For gamers who are here to stay.
+                        </p>
+
+                        <a href="#contact" class="btn btn-primary">
+                            BOOK NOW
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             GALLERY
+             ================================================= -->
+
+        <section class="gallery section" id="gallery">
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <p class="section-label">
+                        INSIDE CONSOLE CORNER
+                    </p>
+
+                    <h2>
+                        EXPERIENCE THE <span>ARENA</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+
+                    <div
+                        class="gallery-item gallery-featured reveal"
+                        data-image="images/arena1.jpg"
+                    >
+
+                        <img
+                            src="images/arena1.jpg"
+                            alt="Console Corner gaming arena"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>01 / ARENA</span>
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="gallery-item reveal"
+                        data-image="images/arena2.jpg"
+                    >
+
+                        <img
+                            src="images/arena2.jpg"
+                            alt="Gaming setup"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>02 / GAMING</span>
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="gallery-item reveal"
+                        data-image="images/racing.jpg"
+                    >
+
+                        <img
+                            src="images/racing.jpg"
+                            alt="Racing simulator"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>03 / RACING</span>
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="gallery-item reveal"
+                        data-image="images/vr.jpg"
+                    >
+
+                        <img
+                            src="images/vr.jpg"
+                            alt="VR gaming setup"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>04 / VR</span>
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="gallery-item reveal"
+                        data-image="images/arena5.jpg"
+                    >
+
+                        <img
+                            src="images/arena5.jpg"
+                            alt="Console Corner"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>05 / EXPERIENCE</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONTACT
+             ================================================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="section-container">
+
+                <div class="contact-grid">
+
+
+                    <div class="contact-info reveal">
+
+                        <p class="section-label">
+                            READY TO PLAY?
+                        </p>
+
+                        <h2>
+                            BOOK YOUR
+                            <span>SESSION</span>
+                        </h2>
+
+                        <p>
+                            Choose your experience, fill in your
+                            details and we'll get you ready for
+                            your next gaming session.
+                        </p>
+
+
+                        <div class="contact-details">
+
+                            <div class="contact-detail">
+
+                                <span>PHONE</span>
+
+                                <strong>
+                                    +91 XXXXX XXXXX
+                                </strong>
+
+                            </div>
+
+
+                            <div class="contact-detail">
+
+                                <span>LOCATION</span>
+
+                                <strong>
+                                    Your Arena Address
+                                </strong>
+
+                            </div>
+
+
+                            <div class="contact-detail">
+
+                                <span>OPEN</span>
+
+                                <strong>
+                                    Open Every Day
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <form
+                        class="contact-form reveal"
+                        id="contactForm"
+                    >
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                YOUR NAME
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                PHONE NUMBER
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter your phone number"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="selected-experience">
+                                SELECTED EXPERIENCE
+                            </label>
+
+                            <input
+                                type="text"
+                                id="selected-experience"
+                                name="experience"
+                                placeholder="Choose an experience above"
+                                readonly
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                MESSAGE
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Anything you'd like us to know?"
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary submit-btn"
+                        >
+                            SEND BOOKING REQUEST
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         LIGHTBOX
+         ===================================================== -->
+
+    <div class="lightbox" id="lightbox">
+
+        <button
+            class="lightbox-close"
+            id="lightboxClose"
+            aria-label="Close image"
+        >
+            ×
+        </button>
+
+        <img
+            id="lightboxImage"
+            src=""
+            alt="Gallery image"
+        >
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                CONSOLE<span>CORNER</span>
+            </div>
+
+            <p>
+                LEVEL UP YOUR GAME.
+            </p>
+
+            <span class="copyright">
+                © 2026 Console Corner. All rights reserved.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
